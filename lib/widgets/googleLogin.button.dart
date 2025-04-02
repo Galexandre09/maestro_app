@@ -3,10 +3,9 @@ import 'package:get/get.dart';
 import 'package:maestro_app/widgets/loginView.controller.dart';
 
 class GoogleLoginButton extends GetView<LoginController> {
-  const GoogleLoginButton({super.key})
-
+  const GoogleLoginButton ({super.key});
   @override
-  Widget build(BuildContext context) {
+   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
         controller.tryToGoogleLogin();

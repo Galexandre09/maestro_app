@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430755683603",
+    "project_id": "maestro-app-c2d62",
+    "storage_bucket": "maestro-app-c2d62.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430755683603:android:8fc04e3b5284313b7fcee6",
+        "android_client_info": {
+          "package_name": "com.example.maestro_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430755683603-mhs6kjlt8k7k7gh6pluresrerb51al7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOMd5gdckrMKoCzbXB7EGP_xMHQ8OFB4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430755683603-mhs6kjlt8k7k7gh6pluresrerb51al7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
+import 'package:maestro_app/widgets/googleLogin.button.dart';
 
 class LoginView extends StatelessWidget   {
   const LoginView({super.key});
@@ -13,6 +15,16 @@ class LoginView extends StatelessWidget   {
   }
 
   _body(){
-
+      return ListView(
+        shrinkWrap: true,
+        padding: const EdgeInsets.all(12),
+        children: [
+          SizedBox(
+            height: Get.height / 3,
+          ),
+          Divider(),
+          GoogleLoginButton()
+        ],
+      );
   }
 }
